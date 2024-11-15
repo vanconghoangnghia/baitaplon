@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VUHOANG</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script src="../js/jquery-3.7.1.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.bundle.js"></script>
+</head>
+<style>
+    [class*=col-]{
+        padding: 0px;
+        margin: 0px;
+    }
+</style>
+<body>
+    <div class="container">
+      <!--header-->
+        <div class="row">
+            <div class="col-3 mt-2">
+                <a href="home.html"><img src="../img/logo.svg" alt="" style="width:100%;height: 100% ;"></a>
+                
+                
+            </div>
+            <div class="col-5 mt-4">
+                <form class="d-flex" style="margin-left: 40px;">
+                    <input class="form-control me-2" type="search" placeholder="Bạn cần tìm...." aria-label="Search">
+                    <button class="btn btn-outline-primary" type="submit">Search</button>
+                  </form>
+                
+            </div>
+            <div class="col-4" >
+                <form action="" class="d-flex  " style="margin-left: 40px;">
+                <a href="shopping.html" class="d-flex" style="text-decoration: none;">
+                  <img width="711" height="450" src="../img/giohang.jpg" alt="" srcset="" style="width: 50px;height: 50px;margin-top: 20px;margin-left: 30px;">
+                <h5 style="color:rgb(55, 116, 229);margin-top: 30px;">Giỏ Hàng</h5>
+                </a>
+                
+                <a href="login.html" class="d-flex" style="text-decoration: none;">
+                  <img width="711" height="450" src="../img/taikhoan.jpg" alt="" srcset="" style="width: 50px;height: 50px;margin-top: 20px;margin-left: 30px;">
+                  <h5 style="color:rgb(55, 116, 229);margin-top: 30px;">Tài Khoản</h5>
+                </a>
+                </form>
+                
+            </div>
+        </div>
+        <!-- Horizontal Menu with Danh mục sản phẩm and other links in same row -->
+        <div class="row bg-primary text-white align-items-center py-4">
+            <!-- Sidebar Menu -->
+            <div class="col-3">
+                <h5 style="margin: 0 30px;" class="mb-0">DANH MỤC SẢN PHẨM</h5>
+            </div>
+        
+            <!-- Horizontal Navbar (Sản phẩm được quan tâm, etc.) -->
+            <div class="col-9">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="../html/product.html">Sản phẩm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../html/product1.html">Camera quan sát</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../html/product2.html">Thiết bị chống trộm</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../html/product3.html">Khóa thông minh</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../html/infomation.html">Tin Công Nghệ</a>
+                    </li>
+                    <li class="nav-item"> 
+                        <a class="nav-link text-white" href="../html/sitemap.html">Sitemap</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--header-->
+        <div class="row mt-3">
+            <div class="col-12">
+               <h2 style="text-align: center;color:rgb(55, 116, 229);">Khóa thông minh</h2>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd1.jpg" class="card-img-top" alt="Khóa cửa vân tay thông minh EZVIZ DL03 Pro">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa cửa vân tay thông minh EZVIZ DL03 Pro</h5>
+                        <strike style="color: rgb(163, 154, 154)">3.390.000 đ</strike>
+                        <span style="color: brown;">1.800.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 47%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s25">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m25" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m25" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa cửa vân tay thông minh EZVIZ DL03 Pro</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">3.390.000 đ</strike>
+                                            <span style="color: brown;">1.800.000₫ </span><br>
+                                            <p>– Chất liệu sản phẩm: Nhôm + Nhựa.</p>
+                                            <p>– Nhiều chế độ mở khóa: Vân tay, mật mã, thẻ cảm ứng, mã tạm thời, mở khóa từ xa qua app Ezviz.</p>
+                                            <p>– Hỗ trợ quản lý người dùng.</p>
+                                            <p>– Số lượng người dùng 50, mật khẩu 50, số thẻ cảm ứng 50.</p>
+                                            <p>– Tự động khóa cửa, báo động chống cậy phá.</p>
+                                            <p>– Mật mã truy cập tạm thời.</p>
+                                            <p>– Thông báo khi pin yếu, thông báo thay thế pin kịp thời.</p>
+                                            <p>– Hỗ trợ kiểm tra trạng thái khóa theo thời gian thực.</p>
+                                            <p>– Hỗ trợ mã khóa chống nhìn trộm.</p>
+                                            <p>– Hỗ trợ nguồn điện khẩn cấp.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd2.jpg" class="card-img-top" alt="Khóa cửa mật mã thông minh EZVIZ DL03">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa cửa mật mã thông minh EZVIZ DL03</h5>
+                        <strike style="color: rgb(163, 154, 154)">2.602.000 đ</strike>
+                        <span style="color: brown;">1.390.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 47%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s26">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m26" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m26" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa cửa mật mã thông minh EZVIZ DL03</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">2.602.000 đ</strike>
+                                            <span style="color: brown;">1.390.000₫ </span><br>
+                                            <p>– Chế độ mở khóa: Mật mã (tối đa 50 mật khẩu).</p>
+                                            <p>– Báo động chống cậy phá.</p>
+                                            <p>– Quản lý từ xa qua App.</p>
+                                            <p>– Mật mã truy cập tạm thời.</p>
+                                            <p>– Thông báo khi pin yếu, thông báo thay thế pin kịp thời.</p>
+                                            <p>– Hỗ trợ kiểm tra trạng thái khóa theo thời gian thực.</p>
+                                            <p>– Tự động khóa cửa.</p>
+                                            <p>– Hỗ trợ mã khóa chống nhìn trộm.</p>
+                                            <p>– Hỗ trợ nguồn điện khẩn cấp.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd3.jpg" class="card-img-top" alt="Khóa cửa khuôn mặt thông minh EZVIZ DL50FVS">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa cửa khuôn mặt thông minh EZVIZ DL50FVS</h5>
+                        <strike style="color: rgb(163, 154, 154)">14.383.000 đ</strike>
+                        <span style="color: brown;">8.090.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 44%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s27">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m27" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m27" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa cửa khuôn mặt thông minh EZVIZ DL50FVS</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">14.383.000 đ</strike>
+                                            <span style="color: brown;">8.090.000₫ </span><br>
+                                            <p>– Hỗ trợ mở khóa bằng khuôn mặt.</p>
+                                            <p>– Nhiều chế độ mở khóa: Khuôn mặt, vân tay, mật mã, thẻ cảm ứng, chìa cơ, chìa bluetooth.</p>
+                                            <p>– Số lượng người dùng 50, khuôn mặt 50, mật khẩu 50, số thẻ cảm ứng 50.</p>
+                                            <p>– Tích hợp màn hình màu 4 inch.</p>
+                                            <p>– Hỗ trợ báo động chống cậy phá.</p>
+                                            <p>– Quản lý từ xa qua App.</p>
+                                            <p>– Hỗ trợ cuộc gọi video, chế độ xem cửa thông minh.</p>
+                                            <p>– Hỗ trợ mã khóa chống nhìn trộm.</p>
+                                            <p>– Hỗ trợ chuẩn chống nước IP54.</p>
+                                            <p>– Hỗ trợ nguồn điện sạc khẩn cấp cổng Type-C.</p>
+                                            <p>– Tích hợp pin sạc lithium dung lượng 5000mAh.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd4.jpg" class="card-img-top" alt="Khóa cửa vân tay thông minh EZVIZ LT70">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa cửa vân tay thông minh EZVIZ LT70</h5>
+                        <strike style="color: rgb(163, 154, 154)">3.927.000 đ</strike>
+                        <span style="color: brown;">2.790.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 29%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s28">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m28" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m28" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa cửa vân tay thông minh EZVIZ LT70</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">3.927.000 đ</strike>
+                                            <span style="color: brown;">2.790.000₫ </span><br>
+                                            <p>– Có 4 chế độ mở khóa: Vân tay, Mật khẩu, Thẻ cảm ứng (Thẻ CPU), Chìa cơ.</p>
+                                            <p>– Hỗ trợ báo động chống giả mạo, an toàn và bảo mật.</p>
+                                            <p>– Thông báo khi pin yếu, thông báo thay thế pin kịp thời.</p>
+                                            <p>– Hỗ trợ báo động chống kiểm tra, thông báo theo thời gian thực.</p>
+                                            <p>– Hỗ trợ quản lý người dùng.</p>
+                                            <p>– Hỗ trợ kiểm tra trạng thái khóa theo thời gian thực.</p>
+                                            <p>– Hỗ trợ mật khẩu truy cập tạm thời.</p>
+                                            <p>– Hỗ trợ nguồn điện khẩn cấp.</p>
+                                            <p>– Thân khóa tiêu chuẩn 6068, nguồn hoạt động 8 pin AA.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd5.jpg" class="card-img-top" alt="Khóa cửa vân tay thông minh EZVIZ DL05">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa cửa vân tay thông minh EZVIZ DL05</h5>
+                        <strike style="color: rgb(163, 154, 154)">5.754.000 đ</strike>
+                        <span style="color: brown;">3.450.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 40%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s29">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m29" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m29" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa cửa vân tay thông minh EZVIZ DL05</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">5.754.000 đ</strike>
+                                            <span style="color: brown;">3.450.000₫ </span><br>
+                                            <p>– Đa dạng phương thức mở khóa: vân tay, mật khẩu, thẻ từ, ứng dụng điện thoại, chìa cơ.</p>
+                                            <p>– Số lượng người dùng 50, mật khẩu 50, số thẻ cảm ứng 50.</p>
+                                            <p>– Tích hợp chuông cửa điện tử trên khóa.</p>
+                                            <p>– Báo động chống phá khóa.</p>
+                                            <p>– Tự động khóa sau 5 lần thử thất bại liên tiếp trong vòng 5 phút.</p>
+                                            <p>– Bật chế độ riêng tư nếu không muốn bị làm phiền.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd6.jpg" class="card-img-top" alt="Khóa cửa điện tử cho khách sạn PHGLOCK MF9033">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa cửa điện tử cho khách sạn PHGLOCK MF9033</h5>
+                        <strike style="color: rgb(163, 154, 154)">10.700.000 đ</strike>
+                        <span style="color: brown;">8.560.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 20%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s30">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m30" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m30" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa cửa điện tử cho khách sạn PHGLOCK MF9033</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">10.700.000 đ</strike>
+                                            <span style="color: brown;">8.560.000₫ </span><br>
+                                            <p>– Phù hợp cho khách sạn theo thiết kế hiện đại, sang trọng.</p>
+                                            <p>– Cách mở khóa: thẻ từ MF & chìa khóa cơ trong trường hợp khẩn cấp.</p>
+                                            <p>– Cấu tạo: hợp kim nhôm + nhựa ABS.</p>
+                                            <p>– Chức năng khóa đôi: tích hợp chốt an toàn, báo hiệu cửa chưa đóng chặt.</p>
+                                            <p>– Pin: 4xAA Alkaline.</p>
+                                            <p>– Chuẩn ruột: 7035.</p>
+                                            <p>– Đố cửa (mm): 38(dày) x 115(rộng).</p>
+                                            <p>– Kích thước (mm): 320(dài) x 81(rộng) x 63(dày).</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd7.jpg" class="card-img-top" alt="Khóa cửa điện tử cho khách sạn PHGLOCK MF9433">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa cửa điện tử cho khách sạn PHGLOCK MF9433</h5>
+                        <strike style="color: rgb(163, 154, 154)">7.100.000 đ</strike>
+                        <span style="color: brown;">5.680.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 20%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s31">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m29" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m31" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa cửa điện tử cho khách sạn PHGLOCK MF9433</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">7.100.000 đ</strike>
+                                            <span style="color: brown;">5.680.000₫ </span><br>
+                                            <p>– Phù hợp cho khách sạn theo thiết kế hiện đại, sang trọng.</p>
+                                            <p>– Cách mở khóa: thẻ từ MF & chìa khóa cơ trong trường hợp khẩn cấp.</p>
+                                            <p>– Cấu tạo: hợp kim nhôm + nhựa ABS.</p>
+                                            <p>– Chức năng khóa đôi: tích hợp chốt an toàn, báo hiệu cửa chưa đóng chặt.</p>
+                                            <p>– Pin: 4xAA Alkaline.</p>
+                                            <p>– Chuẩn ruột: 7035.</p>
+                                            <p>– Đố cửa (mm): 38(dày) x 115(rộng).</p>
+                                            <p>– Kích thước (mm): 320(dài) x 81(rộng) x 63(dày).</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd8.jpg" class="card-img-top" alt="Khóa điện tử cho cửa nhôm PHGLOCK MF5338 (Đen)">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa điện tử cho cửa nhôm PHGLOCK MF5338 (Đen)</h5>
+                        <strike style="color: rgb(163, 154, 154)">4.200.000 đ</strike>
+                        <span style="color: brown;">3.150.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 25%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s32">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m30" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m32" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa điện tử cho cửa nhôm PHGLOCK MF5338 (Đen)</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">4.200.000 đ</strike>
+                                            <span style="color: brown;">3.150.000₫ </span><br>
+                                            <p>– Mẫu khóa màu Đen, cấu tạo inox.</p>
+                                            <p>– Phù hợp cho khách sạn dòng cửa có đố cửa thấp, Nhôm Xingfa, EuroWindow …</p>
+                                            <p>– Cách mở khóa: thẻ từ MF08 & chìa khóa cơ trong trường hợp khẩn cấp.</p>
+                                            <p>– Chủ động đổi tay nắm hướng mở cửa Trái/Phải theo nhu cầu.</p>
+                                            <p>– Chống nước IP65.</p>
+                                            <p>– Pin: 4xAA Alkaline, có kích nguồn dự phòng.</p>
+                                            <p>– Chuẩn ruột: 3585.</p>
+                                            <p>– Kích thước (mm): 330(dài) x 40(rộng) x 25(dày).</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd9.jpg" class="card-img-top" alt="Khóa điện tử cho cửa nhôm PHGLOCK MF5338 (Bạc)">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa điện tử cho cửa nhôm PHGLOCK MF5338 (Bạc)</h5>
+                        <strike style="color: rgb(163, 154, 154)">3.900.000 đ</strike>
+                        <span style="color: brown;">2.925.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 25%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s33">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m31" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m33" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa điện tử cho cửa nhôm PHGLOCK MF5338 (Bạc)</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">3.900.000 đ</strike>
+                                            <span style="color: brown;">2.925.000₫ </span><br>
+                                            <p>– Mẫu khóa màu Bạc, cấu tạo inox.</p>
+                                            <p>– Phù hợp cho khách sạn dòng cửa có đố cửa thấp, Nhôm Xingfa, EuroWindow …</p>
+                                            <p>– Cách mở khóa: thẻ từ MF08 & chìa khóa cơ trong trường hợp khẩn cấp.</p>
+                                            <p>– Chủ động đổi tay nắm hướng mở cửa Trái/Phải theo nhu cầu.</p>
+                                            <p>– Chống nước IP65.</p>
+                                            <p>– Pin: 4xAA Alkaline, có kích nguồn dự phòng.</p>
+                                            <p>– Chuẩn ruột: 3585.</p>
+                                            <p>– Kích thước (mm): 330(dài) x 40(rộng) x 25(dày).</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd10.jpg" class="card-img-top" alt="Khóa cửa điện tử cho khách sạn PHGLOCK RF6135">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa cửa điện tử cho khách sạn PHGLOCK RF6135</h5>
+                        <strike style="color: rgb(163, 154, 154)">3.600.000 đ</strike>
+                        <span style="color: brown;">2.880.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 20%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s34">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m32" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m34" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa cửa điện tử cho khách sạn PHGLOCK RF6135</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">3.600.000 đ</strike>
+                                            <span style="color: brown;">2.880.000₫ </span><br>
+                                            <p>– Khóa có 2 màu Đồng & Đồng Xanh.</p>
+                                            <p>– Phù hợp cho khách sạn theo phong cách cổ điển.</p>
+                                            <p>– Cách mở khóa: thẻ từ TM08 & chìa khóa cơ trong trường hợp khẩn cấp.</p>
+                                            <p>– Cấu tạo: hợp kim.</p>
+                                            <p>– Chức năng khóa đôi: tích hợp chốt an toàn, chống cạy cửa, báo hiệu cửa chưa đóng chặt.</p>
+                                            <p>– Pin: 4xAA Alkaline, có chức năng đèn báo pin yếu.</p>
+                                            <p>– Chuẩn ruột: ruột tâm 62mm (có thể mở rộng dùng ruột tâm 70mm).</p>
+                                            <p>– Đố cửa (mm): 38(dày) x 105(rộng).</p>
+                                            <p>– Kích thước (mm): 368(dài) x 76(rộng) x 25(dày).</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd11.jpg" class="card-img-top" alt="Khóa cửa khách sạn PHGLOCK RF8136 (Vàng)">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa cửa khách sạn PHGLOCK RF8136 (Vàng)</h5>
+                        <strike style="color: rgb(163, 154, 154)">3.000.000 đ</strike>
+                        <span style="color: brown;">2.250.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 25%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s35">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m33" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m35" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa cửa khách sạn PHGLOCK RF8136 (Vàng)</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">3.000.000 đ</strike>
+                                            <span style="color: brown;">2.250.000₫ </span><br>
+                                            <p>– Cấu tạo: nhôm CNC.</p>
+                                            <p>– Phù hợp cho khách sạn theo thiết kế hiện đại, thông dụng.</p>
+                                            <p>– Cách mở khóa: thẻ TM08 & chìa khóa cơ trong trường hợp khẩn cấp.</p>
+                                            <p>– Chức năng khóa đôi: tích hợp chốt an toàn, báo hiệu cửa chưa đóng chặt, chống cạy cửa.</p>
+                                            <p>– Pin: 4xAA Alkaline, tuổi thọ pin có thể lên tới 12 tháng (tùy tần suất sử dụng).</p>
+                                            <p>– Đố cửa (mm): 38(dày) x 105(rộng).</p>
+                                            <p>– Chuẩn ruột: ruột tâm 62mm (có thể mở rộng dùng ruột tâm 70mm).</p>
+                                            <p>– Kích thước (mm): 301(dài) x 75(rộng) x 18(dày).</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <img src="../img/product3/pd12.jpg" class="card-img-top" alt="Khóa cửa khách sạn PHGLOCK RF8136 (Đen)">
+                    <div class="card-body">
+                        <h5 class="card-text">Khóa cửa khách sạn PHGLOCK RF8136 (Đen)</h5>
+                        <strike style="color: rgb(163, 154, 154)">2.800.000 đ</strike>
+                        <span style="color: brown;">2.100.000₫ </span><br>
+                        <span style="color: green;">Tiết kiệm: 25%</span><br>
+                        <form action="" class="d-flex">
+                            <button class="btn btn-danger" id="s36">Thêm</button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#m34" style="margin-left: 20px;">
+                                Xem Chi Tiết
+                            </button>
+            
+                            <!-- Modal -->
+                            <div class="modal fade" id="m36" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel" style="color: brown;">Khóa cửa khách sạn PHGLOCK RF8136 (Đen)</h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <strike style="color: rgb(163, 154, 154)">2.800.000 đ</strike>
+                                            <span style="color: brown;">2.100.000₫ </span><br>
+                                            <p>– Cấu tạo: nhôm CNC.</p>
+                                            <p>– Phù hợp cho khách sạn theo thiết kế hiện đại, thông dụng.</p>
+                                            <p>– Cách mở khóa: thẻ TM08 & chìa khóa cơ trong trường hợp khẩn cấp.</p>
+                                            <p>– Chức năng khóa đôi: tích hợp chốt an toàn, báo hiệu cửa chưa đóng chặt, chống cạy cửa.</p>
+                                            <p>– Pin: 4xAA Alkaline, tuổi thọ pin có thể lên tới 12 tháng (tùy tần suất sử dụng).</p>
+                                            <p>– Đố cửa (mm): 38(dày) x 105(rộng).</p>
+                                            <p>– Chuẩn ruột: ruột tâm 62mm (có thể mở rộng dùng ruột tâm 70mm).</p>
+                                            <p>– Kích thước (mm): 301(dài) x 75(rộng) x 18(dày).</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="row">
+            <div class="col-3">
+                <form action="" class="d-flex">
+                    <img src="../img/iconLike.png" alt="">
+                    <h5 style="color: brown;margin-top: 15px;">Sale Khủng Đến 50%</h5>
+                </form>
+            </div>
+            <div class="col-3">
+                <form action="" class="d-flex">
+                    <img src="../img/iconGiaoHang.png" alt="">
+                    <h5 style="color: brown;margin-top: 15px;">Giao Hàng Nhanh </h5>
+                </form>
+            </div>
+            <div class="col-3">
+                <form action="" class="d-flex">
+                    <img src="../img/iconCSKH.png" alt="">
+                    <h5 style="color: brown;margin-top: 15px;">Hỗ Trợ 24/7</h5>
+                </form>
+            </div>
+            <div class="col-3">
+                <form action="" class="d-flex">
+                    <img src="../img/iconDoiTRa.png" alt="">
+                    <h5 style="color: brown;margin-top: 15px;">Bảo Hành 3 Tháng</h5>
+                </form>
+            </div>
+        </div>
+        <div class="container mt-5" style="background-color:rgb(55, 116, 229);">
+            <div class="row">
+                <div class="col-3" style="color: aliceblue;">
+                    <h5 style="text-align: center;margin-top: 20px;">HỖ TRỢ KHÁCH HÀNG</h5>
+                    <br>
+                    <ul>
+                        <li>Hướng dẫn mua hàng</li>
+                        <li>Hình thức thanh toán</li>
+                        <li>Chăm sóc khách hàng</li>
+                        <li>Tiêu chí bán hàng</li>
+                        <li>Đăng ký Đại lý</li>
+                    </ul>
+                </div>
+                <div class="col-3" style="color: aliceblue;">
+                    <h5 style="text-align: center;margin-top: 20px;">TỔNG ĐÀI HỖ TRỢ</h5>
+                    <br>
+                    <ul>
+                        <li>Mua hàng:
+                            <ul>
+                                <li>Tại HCM: (028) 35 166 166 (08:00 – 17:30)</li>
+                                <li>Tại HN: (024) 6256 1111 (08:00 – 17:30)</li>
+                                <li>Tại Nha Trang: 0915 810 810 (07:30 – 15:30)</li>
+                            </ul>
+                        </li>
+                        <li>Kỹ thuật & Bảo hành:
+                            <ul>
+                                <li>Tại HCM – Nha Trang: 1900 9259 – Bấm số 1</li>
+                                <li>Tại HN: 1900 9259 – Bấm số 2</li>
+                            </ul>
+                        </li>
+                        <li>Khiếu nại, CSKH: 0902 51 53 55 (24/7)</li>
+                    </ul>
+                </div>
+                <div class="col-3" style="color: aliceblue;">
+                    <h5 style="text-align: center;margin-top: 20px;">CHÍNH SÁCH VÀ QUY ĐỊNH</h5>
+                    <br>
+                    <ul>
+                        <li>Chính sách giao nhận</li>
+                        <li>Chính sách bảo hành</li>
+                        <li>Chính sách dùng thử sản phẩm</li>
+                        <li>Chính sách đổi trả sản phẩm</li>
+                        <li>Chính sách bảo mật thông tin</li>
+                        <li>Bảng giá dịch vụ lắp đặt, bảo trì</li>
+                    </ul>
+                </div>
+                <div class="col-3" style="color: aliceblue;">
+                    <h5 style="text-align: center;margin-top: 20px;">THÔNG TIN CÔNG TY</h5>
+                    <ul>
+                        <li>Giới thiệu Vuhoangtelecom</li>
+                        <li>Tin tức Vuhoangtelecom</li>
+                        <li>Tin tức công nghệ</li>
+                        <li>Tin tuyển dụng</li>
+                        <li>Liên hệ</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row bg-dark">
+                <p style="text-align: center;color: gray;">Hotline: 030 652 4177  <br>
+                Trụ sở chính: Số 3A Trần Quý Cáp, Phường 12, Quận Bình Thạnh, Thành phố Hồ Chí Minh</p>
+            </div>
+        </div>
+            </div>
+            <div class="row" style="height: 0px;">
+                <select name="" id="" style="border: 0px;height: 0px;" class="null invisible">
+                    <option id="w1" value="Camera PT Full Color IMOU Cruiser SC 4G 5MP (IPC-K7FP-5H0TE)"></option>
+                    <option value="2.475.000₫" id="q1"></option>
+
+                    <option id="w2" value="Camera Wifi 8MP iMOU Cruiser Dual 2 Pro (IPC-S7XFP-8U0WED)"></option>
+                    <option value="3.040.000₫" id="q2"></option>
+                    <option id="w3" value="Camera IP 2MP DAHUA DH-IPC-HDW1230Tt-AAA-S5"></option>
+                    <option value="955.000₫" id="q3"></option>
+
+                    <option id="w4" value="Camera IP 4MP WizColor DAHUA DH-IPC-HDW2449T-S-PRO"></option>
+                    <option value="2.040.000₫" id="q4"></option>
+
+                    <option id="w5" value="Camera IP 4MP WizColor DAHUA DH-IPC-HFW2449TL-S-PRO"></option>
+                    <option value="2.040.000₫" id="q5"></option>
+
+                    <option id="w6" value="Camera IP 4MP HIKVISION JGRC64DJS6 DS-REW-2CD1347G2-L"></option>
+                    <option value="1.596.000₫" id="q6"></option>
+
+                    <option id="w7" value="Camera IP 4MP HIKVISION GRYN64DGH DS-TEF-2CD1047G2-L"></option>
+                    <option value="1.596.000₫" id="q7"></option>
+
+                    <option id="w8" value="Camera IP 4MP HIKVISION RTHJVF7542 DS-ICP-2CD1347G2-LUF"></option>
+                    <option value="1.638.000₫" id="q8"></option>
+
+                    <option id="w9" value="Camera IP 2MP HIKVISION GTDGH4680 DS-2CD1127G2H-LIUF"></option>
+                    <option value="1.295.000₫" id="q9"></option>
+
+                    <option id="w10" value="Camera HDTVI 2MP HIKVISION DS-2CE76D0T-EXIPF"></option>
+                    <option value="281.000₫" id="q10"></option>
+
+                    <option id="w11" value="Camera HDTVI 2MP HIKVISION DS-2CE16D0T-EXIPF"></option>
+                    <option value="297.000₫" id="q11"></option>
+
+                    <option id="w12" value="Camera IP PTZ 4MP Hikvision DS-2SE3C404MWG-E/14"></option>
+                    <option value="4.360.000₫" id="q12"></option>
+
+                    <option id="w13" value="Cảm biến chuyển động RF GOMAN GM-SM353RF"></option>
+                    <option value="310.000₫" id="q13"></option>
+
+                    <option id="w14" value="Cảm biến cửa RF GOMAN GM-DS353RF"></option>
+                    <option value="250.000₫" id="q14"></option>
+
+                    <option id="w15" value="Báo động chống trộm GSM GOMAN GM-SA353W"></option>
+                    <option id="q15" value="3.050.000₫"></option>
+
+                    <option id="w16" value="Hồng ngoại kiêm báo vỡ kính không dây HIKVISION DS-PDPG12PF-EG2-WB"></option>
+                    <option id="q16" value="1.509.000₫"></option>
+
+                    <option id="w17" value="Cảm biến hồng ngoại không dây HIKVISION DS-PDPC12PF-EG2-WB"></option>
+                    <option id="q17" value="2.255.000₫"></option>
+
+                    <option id="w18" value="Bàn phím lập trình không dây HIKVISION DS-PK1-E-WB"></option>
+                    <option id="q18" value="1.680.000₫"></option>
+
+                    <option id="w19" value="Beam báo động hàng rào HIKVISION DS-PI-Q250/FM"></option>
+                    <option id="q19" value="5.181.000₫"></option>
+
+                    <option id="w20" value="Beam báo động hàng rào HIKVISION DS-PI-Q150/FM"></option>
+                    <option id="q20" value="4.906.000₫"></option>
+
+                    <option id="w21" value="Cảm biến kính vỡ HIKVISION DS-PD1-BG9"></option>
+                    <option id="q21" value="545.000₫"></option>
+
+                    <option id="w22" value="Nút ấn ngụy trang HIKVISION DS-PD1-EB-PF"></option>
+                    <option id="q22" value="589.000₫"></option>
+
+                    <option id="w23" value="Nút bấm khẩn cấp HIKVISION DS-PD1-EB"></option>
+                    <option id="q23" value="61.000₫"></option>
+
+                    <option id="w24" value="Cảm biến rung HIKVISION DS-PDSK-P"></option>
+                    <option id="q24" value="405.000₫"></option>
+
+                    <option id="w25" value="Khóa cửa vân tay thông minh EZVIZ DL03 Pro"></option>
+                    <option id="q25" value="1.800.000₫"></option>
+
+                    <option id="w26" value="Khóa cửa mật mã thông minh EZVIZ DL03"></option>
+                    <option id="q26" value="1.390.000₫"></option>
+
+                    <option id="w27" value="Khóa cửa khuôn mặt thông minh EZVIZ DL50FVS"></option>
+                    <option id="q27" value="8.090.000₫"></option>
+
+                    <option id="w28" value="Khóa cửa vân tay thông minh EZVIZ LT70"></option>
+                    <option id="q28" value="2.790.000₫"></option>
+
+                    <option id="w29" value="Khóa cửa vân tay thông minh EZVIZ DL05"></option>
+                    <option id="q29" value="3.450.000₫"></option>
+
+                    <option id="w30" value="Khóa cửa điện tử cho khách sạn PHGLOCK MF9033"></option>
+                    <option id="q30" value="8.560.000₫"></option>
+
+                    <option id="w31" value="Khóa cửa điện tử cho khách sạn PHGLOCK MF9433"></option>
+                    <option id="q31" value="5.680.000₫"></option>
+
+                    <option id="w32" value="Khóa điện tử cho cửa nhôm PHGLOCK MF5338 (Đen)"></option>
+                    <option id="q32" value="3.150.000₫"></option>
+
+                    <option id="w33" value="Khóa điện tử cho cửa nhôm PHGLOCK MF5338 (Bạc)"></option>
+                    <option id="q33" value="2.925.000₫"></option>
+
+                    <option id="w34" value="Khóa cửa điện tử cho khách sạn PHGLOCK RF6135"></option>
+                    <option id="q34" value="2.880.000₫"></option>
+
+                    <option id="w35" value="Khóa cửa khách sạn PHGLOCK RF8136 (Vàng)"></option>
+                    <option id="q35" value="2.250.000₫"></option>
+
+                    <option id="w36" value="Khóa cửa khách sạn PHGLOCK RF8136 (Đen)"></option>
+                    <option id="q36" value="2.100.000₫"></option>
+
+            </select>
+            </div>
+            </div>
+    </body>
+    <Script>
+        $(document).ready(function(){
+          $('#s1').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w1").val();
+            let gia = $("#q1").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s2').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w2").val();
+            let gia = $("#q2").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s3').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w3").val();
+            let gia = $("#q3").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s4').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w4").val();
+            let gia = $("#q4").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s5').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w5").val();
+            let gia = $("#q5").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s6').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w6").val();
+            let gia = $("#q6").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s7').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w7").val();
+            let gia = $("#q7").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s8').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w8").val();
+            let gia = $("#q8").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s9').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w9").val();
+            let gia = $("#q9").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s10').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w10").val();
+            let gia = $("#q10").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s11').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w11").val();
+            let gia = $("#q11").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s12').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w12").val();
+            let gia = $("#q12").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s13').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w13").val();
+            let gia = $("#q13").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s14').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w14").val();
+            let gia = $("#q14").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s15').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w15").val();
+            let gia = $("#q15").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s16').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w16").val();
+            let gia = $("#q16").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s17').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w17").val();
+            let gia = $("#q17").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s18').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w18").val();
+            let gia = $("#q18").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s19').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w19").val();
+            let gia = $("#q19").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s20').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w20").val();
+            let gia = $("#q20").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s21').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w21").val();
+            let gia = $("#q21").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s22').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w22").val();
+            let gia = $("#q22").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s23').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w23").val();
+            let gia = $("#q23").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s24').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w24").val();
+            let gia = $("#q24").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s25').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w25").val();
+            let gia = $("#q25").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s26').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w26").val();
+            let gia = $("#q26").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s27').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w27").val();
+            let gia = $("#q27").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s28').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w28").val();
+            let gia = $("#q28").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s29').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w29").val();
+            let gia = $("#q29").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s30').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w30").val();
+            let gia = $("#q30").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s31').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w31").val();
+            let gia = $("#q31").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s32').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w32").val();
+            let gia = $("#q32").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s33').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w33").val();
+            let gia = $("#q33").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s34').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w34").val();
+            let gia = $("#q34").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s35').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w35").val();
+            let gia = $("#q35").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+          $('#s36').click(function(e){
+            e.preventDefault();
+            let tensp=$("#w36").val();
+            let gia = $("#q36").val();
+      
+            localStorage.setItem("tensp", tensp);
+            localStorage.setItem("gia", gia);
+      
+            window.location.href="shopping.html";
+          });
+        });
+      </Script>
+      <style>
+        .invisible {
+        visibility: hidden !important;
+      }
+      </style>
+    </html>
